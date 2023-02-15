@@ -1,0 +1,70 @@
+body{
+  background-color: #f8edeb;
+}
+  .ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fbf8cc;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  li{
+    float: right;
+  }
+  
+  li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: #fde4cf;
+  }
+  .active{
+    background-color: lightcoral;
+  }
+  .active:hover{
+    background-color: lightcoral;
+  }
+
+  .div1{
+    width: 50%;
+    height: 500px;
+    background-color: #edede9;
+    margin: auto;
+    margin-top: 20px;
+    transition: transform 2s;
+    padding-left: 20px;
+  }
+  .div1:hover{
+    box-shadow: 0 7px 5px grey;
+    transform: scale(1.1);
+  }
+  .aboutus{
+    font-size: 80px;
+    
+  }
+  .mission{
+    position: relative;
+    top: -100px;
+  }
+  .num{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #003049;
+    color: white;
+    text-align: center;
+  }
+  .list{
+    position: relative;
+    top: -100px;
+
+  }
+  
